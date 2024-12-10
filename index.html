@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="portfolio website">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">My Portfolio</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#performances">Theatrical Performances</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="megacon.jpg" alt="My Headshot" class="headshot">
+            <p>Greetings, my name is Caelan Beebe. I was born in Cherrypoint, North Carolina on December 24, 1999. My hometown is Waikoloa Village, located on the Big Island of Hawai'i. In the winter of 2012, my family moved to Tallahassee, Florida, where I reside to this day.
+
+                In my free time, I tend to appreciate perusing books, observing motion pictures, and playing video games. My favorite style of books tends to be fantastical in nature. I appreciate inundating myself with fictional universes and envisioning how they vary from our world. For motion pictures, I generally enjoy watching those that fall into the horror genre. Suspense, eerie ambience, and terrifying villains all combine into an experience you simply do not get with other genres. When it comes to gaming, I value both the story and gameplay equally. Funnily enough, the type of video games I typically play the most are either fantasy or horror (and on rare occasions, both).
+           
+                Academically, I am labeled as a Junior. In 2018, I graduated from Lawton Chiles High School. In 2023, I earned my Associate in Arts degree from TCC (now known as TSC). When I graduated from TCC, I was considered an Honor Graduate and had been placed on the Dean's List. This year, I am a transfer student at FAMU, in pursuit of a Bachelor of Science degree in Computer Science. In the future, I hope to pursue a career in Game Design, incorporating elements of both fantasy and horror and combining them into a fun and unique experience.</p>
+        </section>
+
+        <!-- Performances Section -->
+        <section id="performances">
+            <h2>Theatrical Performances</h2>
+            <div class="performance-grid">
+                <div class="performance-item">
+                    <h3>She Kills Monsters as Steve</h3>
+                    <p>A play about Agnes Evans, who reconnects with her recently deceased sister through playing her favorite tabletop game Dungeons and Dragons.</p>
+                </div>
+                <div class="performance-item">
+                    <h3>Cinderella as Ballroom Dancer</h3>
+                    <p>A musical about Cinderella, a poor servant girl who eventually ascends into royalty via marrying a prince.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+            </ul>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <p>In my free time, I enjoy:</p>
+            <ul>
+                <li>Reading books</li>
+                <li>Watching movies</li>
+                <li>Playing video games</li>
+            </ul>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Institution</th>
+                        <th>Achievement</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2018</td>
+                        <td>Lawton Chiles High School</td>
+                        <td>High School Diploma</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>Tallahassee Community College (TSC)</td>
+                        <td>Associate in Arts Degree</td>
+                    </tr>
+                    <tr>
+                        <td>2024</td>
+                        <td>Florida A&M University (FAMU)</td>
+                        <td>Currently Pursuing Bachelor of Science in Computer Science</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Get in touch with me:</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+            <p>Connect with me on <a href="https://www.linkedin.com">LinkedIn</a>.</p>
+            <div id="map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3345.2757558954793!2d-84.28073218482068!3d30.4382550817336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88ecf48ab67e35f5%3A0xeae5f2d6f9d4a82!2sTallahassee%2C%20FL!5e0!3m2!1sen!2sus!4v1702054342000!5m2!1sen!2sus"
+                    style="width:100%;height:300px;border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Caelan Beebe. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
